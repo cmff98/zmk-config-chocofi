@@ -68,14 +68,14 @@
                            &kp ESCAPE     &lt NAV SPACE  &kp TAB  &lt NUM KP_ENTER  &kp BACKSPACE   &lt SYM DEL
                 >;
             };
-                nav_layer {
-                        bindings = <
-   &bt BT_CLR   &trans      &kp ESC  &kp TILDE &trans     &kp TAB  &kp HOME &kp UP   &kp END   &kp DEL
-   &bt BT_SEL 0 &kp K_CMENU &kp RALT &kp LCTRL &mo 3      &kp FSLH &kp LEFT &kp DOWN &kp RIGHT &kp BSPC
-   &bt BT_SEL 1 &trans      &trans   &trans    &trans     &kp BSLH &kp RET  &trans   &trans    &trans
-                            &trans   &trans    &trans     &trans   &trans   &trans
-                        >;
-                };
+            sym_layer {
+                bindings = <
+&kp RIGHT_BRACKET     &kp CARET        &kp LEFT_BRACE  &kp TILDE  &kp AT_SIGN       &kp MINUS  &kp Z                       &kp EQUAL                       &kp PLUS                      &kp SQT
+&kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp Z           &kp HASH   &kp LEFT_BRACKET  &kp SLASH  &hmr RIGHT_SHIFT BACKSLASH  &hmr RIGHT_CONTROL RIGHT_BRACE  &hmr RIGHT_ALT RIGHT_BRACKET  &hmr RIGHT_WIN SEMICOLON
+&kp Z                 &kp DOLLAR       &kp PERCENT     &kp PIPE   &none             &none      &none                       &kp GRAVE                       &kp Z                         &kp DOUBLE_QUOTES
+                                       &kp Z           &kp Z      &kp ASTERISK      &none      &none                       &none
+                >;
+            };
 
                 sym_layer {
 // -----------------------------------------------------------------------------------------
