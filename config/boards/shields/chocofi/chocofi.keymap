@@ -88,7 +88,7 @@
 
 // This layer is unreachable until "tri layer state" is sorted out.
 // Leaving it here for completeness.
-                num_layer {
+                nav_layer {
 // -----------------------------------------------------------------------------------------
 // |     |     |     |     |     |   |  A  |  7  |  8  |  9  |  D  |
 // |     |     |     |     |     |   |  B  |  4  |  5  |  6  |  E  |
