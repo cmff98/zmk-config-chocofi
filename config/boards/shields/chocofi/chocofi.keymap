@@ -71,10 +71,10 @@
         };
         sym_layer {
             bindings = <
-&kp RIGHT_BRACKET     &kp CARET        &kp LEFT_BRACE  &kp TILDE  &kp AT_SIGN       &kp MINUS  &kp Z                       &kp EQUAL                       &kp PLUS                      &kp SQT
-&kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp Z           &kp HASH   &kp LEFT_BRACKET  &kp SLASH  &hmr RIGHT_SHIFT BACKSLASH  &hmr RIGHT_CONTROL RIGHT_BRACE  &hmr RIGHT_ALT RIGHT_BRACKET  &hmr RIGHT_WIN SEMICOLON
-&kp Z                 &kp DOLLAR       &kp PERCENT     &kp PIPE   &none             &none      &none                       &kp GRAVE                       &kp Z                         &kp DOUBLE_QUOTES
-                                       &kp Z           &kp Z      &kp ASTERISK      &none      &none                       &none
+&kp RA(NUMBER_0)      &kp CARET        &kp LEFT_BRACE    &kp TILDE  &kp AT_SIGN       &kp MINUS  &kp LS(SLASH)               &kp LS(NUMBER_0)                &kp PLUS                      &kp SQT
+&kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp RA(NUMBER_2)  &kp HASH   &kp LEFT_BRACKET  &kp SLASH  &hmr RIGHT_SHIFT BACKSLASH  &hmr RIGHT_CONTROL RIGHT_BRACE  &hmr RIGHT_ALT RIGHT_BRACKET  &hmr RIGHT_WIN SEMICOLON
+&kp RA(NUMBER_9)      &kp DOLLAR       &kp PERCENT       &kp PIPE   &none             &none      &none                       &kp GRAVE                       &kp Z                         &kp DOUBLE_QUOTES
+                                       &kp Z             &kp Z      &kp ASTERISK      &none      &none                       &none
             >;
         };
 
