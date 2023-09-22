@@ -77,19 +77,14 @@
                 >;
             };
 
-                nav_layer {
-// -----------------------------------------------------------------------------------------
-// |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |
-// |     |     |     |     |     |   |  -  |  =  |  {  |  }  | "|" |
-// |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |
-//             | GUI |     | SPC |   | ENT |     | ALT |
-                        bindings = <
-   &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR
-   &trans    &trans    &trans    &trans    &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp PIPE
-   &trans    &trans    &trans    &trans    &trans      &trans    &trans    &trans          &trans   &kp BSLH
-                       &kp LGUI  &trans    &kp SPACE   &kp RET   &trans    &kp RALT
-                        >;
-                };
+            num_layer {
+                bindings = <
+&none                   &kp NUMBER_7            &kp NUMBER_8         &kp NUMBER_9              &none  &kp F12  &kp F9               &kp F8                 &kp F7        &none
+&hm LEFT_WIN NUMBER_0   &hm LEFT_ALT NUMBER_1   &hm LCTRL NUMBER_2   &hm LEFT_SHIFT NUMBER_3   &none  &kp F11  &hm RIGHT_SHIFT F3   &hm RIGHT_CONTROL F2   &hm RALT F1   &hm RIGHT_GUI NUMBER_0
+&none                   &kp NUMBER_4            &kp NUMBER_5         &kp NUMBER_6              &none  &kp F10  &kp F6               &kp F5                 &kp F4        &none
+                                                &none                &none                     &none  &none    &none                &none
+                >;
+            };
 
 // This layer is unreachable until "tri layer state" is sorted out.
 // Leaving it here for completeness.
