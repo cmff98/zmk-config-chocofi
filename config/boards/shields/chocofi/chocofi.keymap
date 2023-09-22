@@ -80,7 +80,7 @@
             num_layer {
                 bindings = <
 &none                   &kp NUMBER_7            &kp NUMBER_8         &kp NUMBER_9              &none  &kp F12  &kp F9               &kp F8                 &kp F7        &none
-&hml LEFT_WIN NUMBER_0  &hml LEFT_ALT NUMBER_1  &hml LCTRL NUMBER_2  &hml LEFT_SHIFT NUMBER_3  &none  &kp F11  &hmr RIGHT_SHIFT F3  &hmr RIGHT_CONTROL F2  &hmr RALT F1  &hm RIGHT_GUI NUMBER_0
+&hml LEFT_WIN NUMBER_0  &hml LEFT_ALT NUMBER_1  &hml LCTRL NUMBER_2  &hml LEFT_SHIFT NUMBER_3  &none  &kp F11  &hmr RIGHT_SHIFT F3  &hmr RIGHT_CONTROL F2  &hmr RALT F1  &hmr RIGHT_GUI NUMBER_0
 &none                   &kp NUMBER_4            &kp NUMBER_5         &kp NUMBER_6              &none  &kp F10  &kp F6               &kp F5                 &kp F4        &none
                                                 &none                &none                     &none  &none    &none                &none
                 >;
