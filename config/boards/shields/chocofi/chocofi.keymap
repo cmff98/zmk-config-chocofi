@@ -45,8 +45,10 @@
 
             hold-trigger-key-positions = <LEFT_KEYS THUMBS>;
             hold-trigger-on-release;
+        };
     };
 };
+
 
 / {
         keymap {
