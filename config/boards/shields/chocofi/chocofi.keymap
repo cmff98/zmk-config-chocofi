@@ -9,6 +9,42 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+    behaviors {
+        // HOME ROW MODS
+
+        hml: left_hand_positional_hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LEFT_POSITIONAL_HOLD_TAP";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <TAP_TERM_MS>;
+            quick-tap-ms = <QUICK_TAP_MS>;// double-tap + hold repeats tap-key
+            #global-quick-tap = <150>;
+            bindings =
+                <&kp>,
+                <&kp>;
+
+            hold-trigger-key-positions = <RIGHT_KEYS THUMBS>;
+            hold-trigger-on-release;
+        };
+        hmr: right_hand_positional_hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "RIGHT_POSITIONAL_HOLD_TAP";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <TAP_TERM_MS>;
+            quick-tap-ms = <QUICK_TAP_MS>;// double-tap + hold repeats tap-key
+            #global-quick-tap = <150>;
+            bindings =
+                <&kp>,
+                <&kp>;
+
+            hold-trigger-key-positions = <LEFT_KEYS THUMBS>;
+            hold-trigger-on-release;
+    };
+};
+
+/ {
         keymap {
                 compatible = "zmk,keymap";
 
