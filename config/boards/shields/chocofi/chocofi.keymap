@@ -57,50 +57,43 @@
 
 
 / {
-        keymap {
-                compatible = "zmk,keymap";
+    keymap {
+        compatible = "zmk,keymap";
 
-            default_layer {
-                bindings = <
+        default_layer {
+            bindings = <
 &kp Q         &kp W        &kp E          &kp R          &kp T    &kp Y             &kp U           &kp I          &kp O         &kp P
 &hml LGUI A   &hml LALT S  &hml LCTRL D   &hml LSHIFT F  &kp G    &kp H             &hmr RSHIFT J   &hmr RCTRL K   &hmr RALT L   &hmr RGUI SEMI
 &kp Z         &kp X        &kp C          &kp V          &kp B    &kp N             &kp M           &kp COMMA      &kp DOT       &kp SLASH
                            &kp ESCAPE     &lt NAV SPACE  &kp TAB  &lt NUM KP_ENTER  &kp BACKSPACE   &lt SYM DEL
-                >;
-            };
-            sym_layer {
-                bindings = <
+            >;
+        };
+        sym_layer {
+            bindings = <
 &kp RIGHT_BRACKET     &kp CARET        &kp LEFT_BRACE  &kp TILDE  &kp AT_SIGN       &kp MINUS  &kp Z                       &kp EQUAL                       &kp PLUS                      &kp SQT
 &kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp Z           &kp HASH   &kp LEFT_BRACKET  &kp SLASH  &hmr RIGHT_SHIFT BACKSLASH  &hmr RIGHT_CONTROL RIGHT_BRACE  &hmr RIGHT_ALT RIGHT_BRACKET  &hmr RIGHT_WIN SEMICOLON
 &kp Z                 &kp DOLLAR       &kp PERCENT     &kp PIPE   &none             &none      &none                       &kp GRAVE                       &kp Z                         &kp DOUBLE_QUOTES
                                        &kp Z           &kp Z      &kp ASTERISK      &none      &none                       &none
-                >;
-            };
+            >;
+        };
 
-            num_layer {
-                bindings = <
+        num_layer {
+            bindings = <
 &none                   &kp NUMBER_7            &kp NUMBER_8         &kp NUMBER_9              &none  &kp F12  &kp F9               &kp F8                 &kp F7        &none
 &hml LEFT_WIN NUMBER_0  &hml LEFT_ALT NUMBER_1  &hml LCTRL NUMBER_2  &hml LEFT_SHIFT NUMBER_3  &none  &kp F11  &hmr RIGHT_SHIFT F3  &hmr RIGHT_CONTROL F2  &hmr RALT F1  &hmr RIGHT_GUI NUMBER_0
 &none                   &kp NUMBER_4            &kp NUMBER_5         &kp NUMBER_6              &none  &kp F10  &kp F6               &kp F5                 &kp F4        &none
                                                 &none                &none                     &none  &none    &none                &none
-                >;
-            };
-
-// This layer is unreachable until "tri layer state" is sorted out.
-// Leaving it here for completeness.
-                nav_layer {
-// -----------------------------------------------------------------------------------------
-// |     |     |     |     |     |   |  A  |  7  |  8  |  9  |  D  |
-// |     |     |     |     |     |   |  B  |  4  |  5  |  6  |  E  |
-// |     |     |     |     |     |   |  C  |  1  |  2  |  3  |  F  |
-//             |     |     |     |   |  0  |  .  |     |
-                        bindings = <
-   &trans &trans &trans &trans &trans    &kp A  &kp N7  &kp N8 &kp N9 &kp D
-   &trans &trans &trans &trans &trans    &kp B  &kp N4  &kp N5 &kp N6 &kp E
-   &trans &trans &trans &trans &trans    &kp C  &kp N1  &kp N2 &kp N3 &kp F
-                 &trans &trans &trans    &kp N0 &kp DOT &trans
-                        >;
-                };
+            >;
         };
+
+        nav_layer {
+            bindings = <
+&out OUT_BLE  &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &kp HOME        &kp PAGE_DOWN  &kp PAGE_DOWN  &kp END    &none
+&none         &none             &none             &none             &none             &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW   &kp RIGHT  &none
+&out OUT_USB  &bt BT_CLR_CMD 0  &bt BT_CLR_CMD 1  &bt BT_CLR_CMD 2  &bt BT_CLR_CMD 3  &none           &none          &none          &none      &none
+                                &none             &none             &none             &none           &none          &none
+            >;
+        };
+    };
 };
 
