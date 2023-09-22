@@ -17,8 +17,8 @@
             label = "LEFT_POSITIONAL_HOLD_TAP";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = 200;
-            quick-tap-ms = 125;// double-tap + hold repeats tap-key
+            tapping-term-ms = <200>;
+            quick-tap-ms = <125>; // double-tap + hold repeats tap-key
             #global-quick-tap = <150>;
             bindings =
                 <&kp>,
@@ -32,8 +32,8 @@
             label = "RIGHT_POSITIONAL_HOLD_TAP";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = 200;
-            quick-tap-ms = 125;// double-tap + hold repeats tap-key
+            tapping-term-ms = <200>;
+            quick-tap-ms = <125>; // double-tap + hold repeats tap-key
             #global-quick-tap = <150>;
             bindings =
                 <&kp>,
