@@ -1,5 +1,5 @@
-# https://keymap-drawer.streamlit.app/
-layout: {zmk_keyboard: chocofi}
+# comments
+layout: {qmk_keyboard: chocofi}
 layers:
   Default Layer:
   - Q
@@ -135,7 +135,7 @@ layers:
   - DOWN ARROW
   - UP ARROW
   - RIGHT ARROW
-  - LS(PERIOD)
+  - ':'
   - OUT USB
   - BT CLR 0
   - BT CLR 1
@@ -143,9 +143,9 @@ layers:
   - BT CLR 3
   - ''
   - ''
-  - \
-  - LS(NON US BACKSLASH)
-  - LS(MINUS)
+  - '<'
+  - '>'
+  - '?'
   - ''
   - ''
   - ''
