@@ -79,9 +79,9 @@
         };
 
         sym_layer {
-            // |  }  |  &  |  *  |  |  |  "  |   |  '  |  _   |  =  |  »  |  º  |
+            // |  }  |  &  |  *  |  |  |  "  |   |  '  |  _   |  =  |  «  |  º  |
             // |  )  |  !  |  @  |  #  |  +  |   |  -  |  ~   |  `  |  /  |  ç  |
-            // |  ]  |  $  |  %  |  ^  |     |   |     |      |  \  |     |  ª  |
+            // |  ]  |  $  |  %  |  ^  |     |   |     |      |  \  |  »  |  ª  |
             //             |  {  |  [  |  (  |   |     |  ON  |     |
             bindings = <
 &kp RA(NUMBER_0)  &kp LS(NUMBER_6)  &kp LEFT_BRACE    &kp TILDE         &kp AT_SIGN       &kp MINUS  &kp LS(SLASH)               &kp LS(NUMBER_0)                &kp EQUAL                     &kp SQT
