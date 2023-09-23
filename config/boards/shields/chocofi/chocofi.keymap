@@ -11,8 +11,8 @@
 
 
 // tapping term definition
-#define TAP_TERM_MS 200
-#define QUICK_TAP_MS 125
+#define TAP_TERM_MS 300
+#define QUICK_TAP_MS 250
 
 #define BASE 0
 #define SYM 1
