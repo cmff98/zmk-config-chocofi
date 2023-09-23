@@ -93,12 +93,12 @@
 
         num_layer {
             // |     |  7  |  8  |  9  |     |   | F12 |  F9  |  F8  |  F7  |     |
-            // |  0  |  1  |  2  |  3  |     |   | F11 |  F3  |  F2  |  F1  |  0  |
+            // |  0  |  1  |  2  |  3  |     |   | F11 |  F3  |  F2  |  F1  |     |
             // |     |  4  |  5  |  6  |     |   | F10 |  F6  |  F5  |  F4  |     |
             //             |     | ON  |     |   |     |      |      |
             bindings = <
 &none                   &kp NUMBER_7            &kp NUMBER_8         &kp NUMBER_9              &none  &kp F12  &kp F9               &kp F8                 &kp F7        &none
-&hml LEFT_WIN NUMBER_0  &hml LEFT_ALT NUMBER_1  &hml LCTRL NUMBER_2  &hml LEFT_SHIFT NUMBER_3  &none  &kp F11  &hmr RIGHT_SHIFT F3  &hmr RIGHT_CONTROL F2  &hmr RALT F1  &hmr RIGHT_GUI NUMBER_0
+&hml LEFT_WIN NUMBER_0  &hml LEFT_ALT NUMBER_1  &hml LCTRL NUMBER_2  &hml LEFT_SHIFT NUMBER_3  &none  &kp F11  &hmr RIGHT_SHIFT F3  &hmr RIGHT_CONTROL F2  &hmr RALT F1  &kp RIGHT_GUI
 &none                   &kp NUMBER_4            &kp NUMBER_5         &kp NUMBER_6              &none  &kp F10  &kp F6               &kp F5                 &kp F4        &none
                                                 &none                &none                     &none  &none    &none                &none
             >;
@@ -106,14 +106,14 @@
 
         nav_layer {
             // | OUT_BLE | BLE_SEL_0 | BLE_SEL_1 | BLE_SEL_2 | BLE_SEL_3 |   |            |           |            |             |             |
-            // |         |           |           |           |           |   | LEFT_ARROW | UP_ARROW  | DOWN_ARROW | RIGHT_ARROW |      :      |
+            // |   WIN   |    ALT    |    CTRL   |   SHIFT   |           |   | LEFT_ARROW | UP_ARROW  | DOWN_ARROW | RIGHT_ARROW |      :      |
             // | OUT_USB | BLE_CLR_0 | BLE_CLR_1 | BLE_CLR_2 | BLE_CLR_3 |   |            |           |      <     |      >      |      ?      |
             //                       |           |           |           |   |     ON     |           |            |
             bindings = <
-&out OUT_BLE  &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &none           &none     &none                 &none                     &none
-&none         &none             &none             &none             &none             &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW          &kp RIGHT                 &kp LS(PERIOD)
-&out OUT_USB  &bt BT_CLR_CMD 0  &bt BT_CLR_CMD 1  &bt BT_CLR_CMD 2  &bt BT_CLR_CMD 3  &none           &none     &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp LS(MINUS)
-                                &none             &none             &none             &none           &none     &none
+&out OUT_BLE  &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &none           &none           &none                 &none                     &none
+&kp LEFT_WIN  &kp LEFT_ALT      &kp LCTRL         &kp LEFT_SHIFT    &none             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW          &kp RIGHT_ARROW           &kp LS(PERIOD)
+&out OUT_USB  &bt BT_CLR_CMD 0  &bt BT_CLR_CMD 1  &bt BT_CLR_CMD 2  &bt BT_CLR_CMD 3  &none           &none           &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp LS(MINUS)
+                                &none             &none             &none             &none           &none           &none
             >;
         };
     };
