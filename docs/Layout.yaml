@@ -1,0 +1,154 @@
+# https://keymap-drawer.streamlit.app/
+layout: {zmk_keyboard: chocofi}
+layers:
+  Default Layer:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHIFT}
+  - G
+  - H
+  - {t: J, h: RSHIFT}
+  - {t: K, h: RCTRL}
+  - {t: L, h: RALT}
+  - {t: ;, h: RGUI}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - '/'
+  - ESCAPE
+  - {t: SPACE, h: num}
+  - TAB
+  - {t: KP ENTER, h: nav}
+  - {t: BACKSPACE, h: sym}
+  - DEL
+
+  Symbol Layer:
+  - '}'
+  - '&'
+  - '*'
+  - '|'
+  - '"'
+  - "'"
+  - '_'
+  - '='
+  - '«'
+  - 'º'
+  - ')'
+  - '!'
+  - '@'
+  - '#'
+  - '+'
+  - '-'
+  - {t: '~', h: RIGHT SHIFT}
+  - {t: '`', h: RIGHT CONTROL}
+  - {t: '´', h: RIGHT ALT}
+  - {t: ç, h: RIGHT WIN}
+  - ']'
+  - $
+  - '%'
+  - ^
+  - ''
+  - ''
+  - ''
+  - '\'
+  - '»'
+  - 'ª'
+  - '{'
+  - '['
+  - '('
+  - ''
+  - {type: held}
+  - ''
+
+  Number Layer:
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - ''
+  - F12
+  - F9
+  - F8
+  - F7
+  - ''
+  - {t: '0', h: LEFT WIN}
+  - {t: '1', h: LEFT ALT}
+  - {t: '2', h: LCTRL}
+  - {t: '3', h: LEFT SHIFT}
+  - ''
+  - F11
+  - {t: F3, h: RIGHT SHIFT}
+  - {t: F2, h: RIGHT CONTROL}
+  - {t: F1, h: RALT}
+  - RIGHT GUI
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - ''
+  - F10
+  - F6
+  - F5
+  - F4
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+
+  Navigation Layer:
+  - OUT BLE
+  - BT SEL 0
+  - BT SEL 1
+  - BT SEL 2
+  - BT SEL 3
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT WIN
+  - LEFT ALT
+  - LCTRL
+  - LEFT SHIFT
+  - ''
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
+  - LS(PERIOD)
+  - OUT USB
+  - BT CLR 0
+  - BT CLR 1
+  - BT CLR 2
+  - BT CLR 3
+  - ''
+  - ''
+  - \
+  - LS(NON US BACKSLASH)
+  - LS(MINUS)
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
