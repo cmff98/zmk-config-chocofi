@@ -84,10 +84,10 @@
             // |  ]  |  $  |  %  |  ^  |     |   |     |      |  \  |     |  ª  |
             //             |  {  |  [  |  (  |   |     |  ON  |     |
             bindings = <
-&kp RA(NUMBER_0)      &kp CARET        &kp LEFT_BRACE    &kp TILDE         &kp AT_SIGN       &kp MINUS  &kp LS(SLASH)               &kp LS(NUMBER_0)                &kp EQUAL                     &kp SQT
-&kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp RA(NUMBER_2)  &kp HASH          &kp LEFT_BRACKET  &kp SLASH  &hmr RIGHT_SHIFT BACKSLASH  &hmr RIGHT_CONTROL RIGHT_BRACE  &hmr RIGHT_ALT RIGHT_BRACKET  &hmr RIGHT_WIN SEMICOLON
-&kp RA(NUMBER_9)      &kp DOLLAR       &kp PERCENT       &kp PIPE          &none             &none      &none                       &kp GRAVE                       &kp LS(EQUAL)                 &kp DOUBLE_QUOTES
-                                       &kp RA(NUMBER_7)  &kp RA(NUMBER_8)  &kp ASTERISK      &none      &none                       &none
+&kp RA(NUMBER_0)  &kp LS(NUMBER_6)  &kp LEFT_BRACE    &kp TILDE         &kp AT_SIGN       &kp MINUS  &kp LS(SLASH)               &kp LS(NUMBER_0)                &kp EQUAL                     &kp SQT
+&kp LS(NUMBER_9)  &kp LS(NUMBER_1)  &kp RA(NUMBER_2)  &kp HASH          &kp LEFT_BRACKET  &kp SLASH  &hmr RIGHT_SHIFT BACKSLASH  &hmr RIGHT_CONTROL RIGHT_BRACE  &hmr RIGHT_ALT RIGHT_BRACKET  &hmr RIGHT_WIN SEMICOLON
+&kp RA(NUMBER_9)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp PIPE          &none             &none      &none                       &kp GRAVE                       &kp LS(EQUAL)                 &kp DOUBLE_QUOTES
+                                    &kp RA(NUMBER_7)  &kp RA(NUMBER_8)  &kp ASTERISK      &none      &none                       &none
             >;
         };
 
