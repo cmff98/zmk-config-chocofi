@@ -98,14 +98,9 @@
       bindings = <&kp ESCAPE>;
       key-positions = <19 20>;
     };
-
-    colemakdh {
-      bindings = <&tog 0>;
-      key-positions = <18 12 23 17>;
-    };
-
+ 
+  };
 };
-
 
 / {
     keymap {
